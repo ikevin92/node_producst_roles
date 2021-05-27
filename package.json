@@ -1,7 +1,7 @@
 {
 	"name": "producs-api-roles",
 	"version": "1.0.0",
-	"description": "",
+	"description": "api con permisos y roles",
 	"main": "index.js",
 	"scripts": {
         "build": "babel src --out-dir build",
@@ -9,7 +9,7 @@
 		"start": "node build/index.js"
 	},
 	"keywords": [],
-	"author": "",
+	"author": "Kevin Echeverri",
 	"license": "ISC",
 	"dependencies": {
 		"bcryptjs": "^2.4.3",
