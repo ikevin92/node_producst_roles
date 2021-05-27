@@ -2,8 +2,10 @@ import express from 'express';
 import morgan from 'morgan';
 import pkg from '../package.json';
 
-const app = express();
+//importacion de rutas
+import productsRoutes from './routes/products.routes';
 
+const app = express();
 // se usa para nombrar la variable del package
 app.set( 'pkg', pkg );
 
@@ -17,6 +19,9 @@ app.get( '/', ( req, res ) => {
         version: app.get( 'pkg' ).version
     } );
 } );
+
+// routes
+app.use( '/products',productsRoutes );
 
 
 export default app;
