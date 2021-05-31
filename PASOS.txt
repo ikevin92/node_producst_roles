@@ -1,0 +1,12 @@
+
+1. Creacion carpeta 
+2. npm init
+3. instalar dependencias (validar el packaje json) (npm install)
+4. instalar y configurar babelrc (dependencias desarrollo)
+5. configurar los scripst de packaje json
+6. creacion de carpetas (middlewares, routes, controllers, models, libs)
+7. creacion de archivos js (index, database, config)
+8. separacion ( en app.js se ponen todas las configuraciones de express)
+9. creacion de routes inicializando router y exportandolo (20:00). Se copia en todos los archivos de routes
+10. importacion de rutas en el app.js
+11. creacion de controllers (funciones del crud) y se importan en las rutas
